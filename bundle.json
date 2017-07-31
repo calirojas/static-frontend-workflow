@@ -1,0 +1,33 @@
+{
+	"paths": {
+		"dist": {
+			"folder": "./dist",
+			"server": "dist/",
+			"styles": {
+				"file": "styles.min.css",
+				"folder": "/css/"
+			},
+			"scripts": {
+				"file": "scripts.min.js",
+				"folder": "/js/"
+			},
+			"markup": {
+				"folder": "/",
+				"baseDir": "./src/"
+			}
+		}
+	},
+	"files": {
+		"scripts": [
+			"./node_modules/jquery/dist/jquery.min.js",
+			"./node_modules/bootstrap/dist/js/bootstrap.min.js",
+			"./node_modules/vue/dist/vue.js"
+		],
+		"styles": [
+			"./src/scss/main.scss"
+		],
+		"markup": {
+			"pages": ["./src/*.pug"]
+		}
+	}
+}
